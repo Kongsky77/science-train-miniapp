@@ -1,0 +1,9 @@
+enum ColumnEnum {
+  POPULAR,
+  OFFICIAL_COOPERATION,
+  THINKING_TRAINING,
+  OFFLINE_CREATIVITY,
+  HUMANITY_HISTORY
+}
+
+export default ColumnEnum

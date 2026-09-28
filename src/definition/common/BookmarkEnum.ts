@@ -1,0 +1,8 @@
+enum BookmarkEnum {
+  RECOMMEND_ACTIVITIES,
+  ALL_ACTIVITIES,
+  COLLECT_ACTIVITIES,
+  AROUND_ACTIVITIES
+}
+
+export default BookmarkEnum

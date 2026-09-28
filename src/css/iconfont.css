@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('@/iconfont/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-class:before {
+  content: "\e601";
+}
+
+.icon-guanyuwomen:before {
+  content: "\e603";
+}
+
+.icon-name:before {
+  content: "\e604";
+}
+
+.icon-date:before {
+  content: "\e605";
+}
+
+.icon-phone:before {
+  content: "\e606";
+}
+
+.icon-kid:before {
+  content: "\e607";
+}
+
+.icon-yelan:before {
+  content: "\e608";
+}
+
+.icon-shcool:before {
+  content: "\e609";
+}
+
+.icon-bangzu:before {
+  content: "\e60a";
+}
+
+.icon-falv:before {
+  content: "\e60b";
+}
+
+.icon-ID_card:before {
+  content: "\e60c";
+}
+.icon-licheng:before {
+  content: "\e60d";
+}
+
+.icon-tonngzhi:before {
+  content: "\e60f";
+}
+
+.icon-shezhi:before {
+  content: "\e610";
+}
+

@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  background-color: #f5f5f5;
+  .title {
+    width: 100%;
+    height: 10%;
+    background: #3D4FB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    .choose-img-btn {
+      position: absolute;
+      right: 20rpx;
+      font-size: 28rpx;
+      background: #ffffff;
+      padding: 10rpx 15rpx 10rpx 15rpx;
+      border-radius: 15rpx;
+      color: #535353;
+    }
+  }
+  .swiper-item-box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    image {
+      width: 100%;
+      object-fit:cover;
+    }
+  }
+
+}

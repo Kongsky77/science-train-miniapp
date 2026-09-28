@@ -1,0 +1,30 @@
+.nav-box {
+  display: flex;
+  overflow-x: auto;
+  padding-left: 50rpx;
+}
+
+.nav-item {
+  flex-shrink: 0;
+  color: #fff;
+  padding: 10rpx 16rpx;
+  font-size: 28rpx;
+  width: 168rpx;
+  // height: 72rpx;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40rpx;
+  background: #DBDBDB;
+
+  &.active {
+    background: #00bf86;
+  }
+
+  .text {
+    font-size: 24rpx;
+    margin-top: 6rpx;
+  }
+}

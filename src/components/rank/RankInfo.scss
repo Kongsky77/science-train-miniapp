@@ -1,0 +1,129 @@
+.rank-info-title {
+  color: #464646;
+  font-size: 24rpx;
+  margin-bottom: 34rpx;
+}
+
+.rank-info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-box {
+  display: flex;
+}
+
+.team-avatar {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+
+.team-name {
+  color: #343a40;
+  font-size: 32rpx;
+  // margin-top: 14rpx;
+  // margin-bottom: 20rpx;
+}
+
+.team-school {
+  color: #c1c1c1;
+  font-size: 24rpx;
+  // margin-bottom: 20rpx;
+}
+
+.team-rank {
+  font-size: 56rpx;
+  line-height: 56rpx;
+  font-weight: bold;
+  color: #343a40;
+  // margin-bottom: 30rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.team-rank-text {
+  font-size: 24rpx;
+  color: #c1c1c1;
+  // margin-top: 30rpx;
+  text-align: right;
+}
+
+.tip-row {
+  padding-top: 20rpx;
+
+  .team-rank-text {
+    margin-bottom: 10rpx;
+  }
+}
+
+.challenge-btn-box {
+  display: flex;
+}
+
+.challenge-btn {
+  padding: 10rpx 30rpx;
+  border-radius: 26px;
+  background: #00bf86;
+  color: #fff;
+  margin-right: 20rpx;
+}
+
+.no-data {
+  font-size: 32rpx;
+  color: #ffa700;
+}
+
+.rank-info-item:last-child {
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.tip {
+  display: inline-block;
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 40rpx;
+  background: #00b986;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}
+
+.tip-mask {
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.tip-box {
+  font-size: 28rpx;
+  padding: 40rpx;
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  background: transparent url("https://contentdevsa-blob.ai121.net/testcontainer/activity/image/aed4db36-3215-4b0d-930f-67eb5f4717ef.svg") no-repeat top right/cover;
+  transform: translateY(-10px);
+  padding-left: 10px;
+}
+
+
+.tip-highlight {
+  color: #FFA200
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}

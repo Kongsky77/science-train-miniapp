@@ -1,0 +1,4 @@
+enum BadgeIsAwardEnum {
+  NO,
+  YES
+}

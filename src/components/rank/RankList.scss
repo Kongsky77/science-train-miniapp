@@ -1,0 +1,115 @@
+.rank-list{
+  padding-bottom: 100rpx;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+}
+
+.rank-item {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-text {
+  color: #343a40;
+  font-size: 32rpx;
+}
+
+.rank-icon-box {
+  width: 50rpx;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-icon {
+  height: 100%;
+}
+
+.arrow-right {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.team-box {
+  display: flex;
+  margin-right: auto;
+}
+
+.team-avatar {
+  width: 90rpx !important;
+  height: 90rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+
+.team-name {
+  color: #343a40;
+  font-size: 24rpx;
+  // margin-top: 14rpx;
+  margin-bottom: 10rpx;
+}
+
+.team-item.is-name-only {
+  display: flex;
+  align-items: center;
+
+  .team-name {
+    margin-bottom: 0;
+  }
+}
+
+.team-school {
+  color: #c1c1c1;
+  font-size: 24rpx;
+  padding-right: 8rpx;
+  box-sizing: border-box;
+}
+
+.rank-type {
+  color: #343a40;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-right: 50rpx;
+  margin-right: 20rpx;
+}
+
+.rank-btn {
+  padding: 10rpx 30rpx;
+  border-radius: 26px;
+  background: #00bf86;
+  color: #fff;
+  margin-right: 20rpx;
+
+  &.disable {
+    background: #c1c1c1;
+  }
+}
+
+.rank-wx-btn {
+  padding: 10rpx 30rpx;
+  margin-right: 20rpx;
+}
+
+.empty-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80rpx 0;
+}
+
+.empty-icon {
+  width: 200rpx;
+}
+
+.team-avatar,
+.rank-icon {
+  width: 80rpx;
+}

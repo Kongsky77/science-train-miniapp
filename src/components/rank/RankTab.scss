@@ -1,0 +1,23 @@
+.tab-box {
+  display: flex;
+  background: #98d0bf;
+  border-radius: 14rpx;
+
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.tab-item {
+  color: #fff;
+  padding: 16rpx;
+  font-size: 28rpx;
+  flex: 1;
+  border-radius: 14rpx;
+  height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    background: #00bf86;
+  }
+}

@@ -1,0 +1,30 @@
+module.exports = {
+  rootDir: "..",
+  testEnvironment: "node",
+  testMatch: [
+    "<rootDir>/tests/wechatSubpackages.test.js",
+    "<rootDir>/tests/wechatComponentInjection.test.js",
+    "<rootDir>/tests/scienceTrainDailyRoundLogic.test.js",
+    "<rootDir>/tests/scienceTrainPointsLogic.test.js",
+    "<rootDir>/tests/scienceTrainRankLogic.test.js",
+    "<rootDir>/tests/scienceTrainLotteryLogic.test.js",
+    "<rootDir>/tests/scienceTrainLotteryService.test.js",
+    "<rootDir>/tests/pageStackNavigationLogic.test.js",
+    "<rootDir>/tests/homePageRefreshPerformance.test.js",
+    "<rootDir>/tests/checkInModels.test.js",
+    "<rootDir>/tests/checkInDailyLimit.test.js",
+    "<rootDir>/tests/checkInUtilities.test.js",
+    "<rootDir>/tests/checkInService.test.js",
+    "<rootDir>/tests/loginRedirectLogic.test.js",
+    "<rootDir>/tests/scienceTrainNavigation.test.js",
+    "<rootDir>/tests/scienceTrainAccessibility.test.js",
+    "<rootDir>/tests/scienceTrainFirstPaint.test.js",
+    "<rootDir>/tests/scienceTrainCopyCleanup.test.js",
+  ],
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/src/$1",
+  },
+  transform: {
+    "^.+\\.ts$": "<rootDir>/tests/typescript-jest-transformer.js",
+  },
+};

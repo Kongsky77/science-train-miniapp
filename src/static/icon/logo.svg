@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="SVGID" width="7.861" height="7.861" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="logo" transform="translate(-46.933 -126.933)">
+    <g id="椭圆_3747" data-name="椭圆 3747" transform="translate(46.933 126.933)" fill="#fff" stroke="#f5f5f5" stroke-width="1">
+      <circle cx="31" cy="31" r="31" stroke="none"/>
+      <circle cx="31" cy="31" r="30.5" fill="none"/>
+    </g>
+    <circle id="椭圆_1603" data-name="椭圆 1603" cx="27" cy="27" r="27" transform="translate(50.933 130.933)" fill="#3e6baf"/>
+    <g id="组_6647" data-name="组 6647" transform="translate(61.954 137.959)">
+      <g id="组_6645" data-name="组 6645" transform="translate(23.56 32.495)">
+        <g id="组_6644" data-name="组 6644" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="路径_59393" data-name="路径 59393" d="M2375.858,863.364a7.853,7.853,0,1,0,7.854,7.854A7.853,7.853,0,0,0,2375.858,863.364Zm0,10.471a2.618,2.618,0,1,1,2.618-2.618A2.618,2.618,0,0,1,2375.858,873.835Z" transform="translate(-2375.858 -871.21)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="组_6646" data-name="组 6646" transform="translate(0 0)">
+        <path id="路径_59394" data-name="路径 59394" d="M2410.571,803.42h0a2.638,2.638,0,0,0-2.622,2.655v21.2h5.243v-21.2A2.638,2.638,0,0,0,2410.571,803.42Z" transform="translate(-2381.771 -794.485)" fill="#fff"/>
+        <ellipse id="椭圆_1602" data-name="椭圆 1602" cx="2.626" cy="2.605" rx="2.626" ry="2.605" transform="matrix(0.707, -0.707, 0.707, 0.707, 25.097, 3.714)" fill="#fff"/>
+        <path id="路径_59395" data-name="路径 59395" d="M2327.009,788.394a.9.9,0,0,0-1.525-.2L2324,790.064a11.8,11.8,0,0,0-8.257,0l-1.487-1.869a.9.9,0,0,0-1.525.2l-2.761,6.325a11.724,11.724,0,0,0-1.878,6.378v6.544h10.449a2.618,2.618,0,0,1,2.618,2.618h0a2.618,2.618,0,0,1-2.618,2.618h-10.449a10.479,10.479,0,0,0,10.479,10.479h13.082V801.1a11.72,11.72,0,0,0-1.878-6.378Z" transform="translate(-2308.088 -783.001)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
